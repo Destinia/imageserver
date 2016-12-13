@@ -141,6 +141,11 @@ func ParseQueryInt(param string, req *http.Request, params imageserver.Params) e
 	if s == "" {
 		return nil
 	}
+	if param == "width" || param == "height" {
+		if string(s[0]) == "/" {
+			s = s[1:]
+		}
+	}
 	i, err := strconv.Atoi(s)
 	if err != nil {
 		return newParseTypeParamError(param, "int", err)
