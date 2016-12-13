@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/Destinia/imageserver"
 	redigo "github.com/garyburd/redigo/redis"
-	"github.com/pierrre/imageserver"
 )
 
 // Cache is a Redis imageserver/cache.Cache implementation.

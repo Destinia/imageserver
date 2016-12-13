@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/pierrre/imageserver"
-	imageserver_source "github.com/pierrre/imageserver/source"
+	"github.com/Destinia/imageserver"
+	imageserver_source "github.com/Destinia/imageserver/source"
 )
 
 // Parser represents a *net/http.Request parser.

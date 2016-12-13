@@ -1,22 +1,22 @@
 // Package httpsource provides a HTTP Source example.
 //
 // Try http://localhost:8080/large.jpg
-// or any image available in https://github.com/pierrre/imageserver/tree/master/testdata
+// or any image available in https://github.com/Destinia/imageserver/tree/master/testdata
 package main
 
 import (
 	"flag"
 	"net/http"
 
-	imageserver_http "github.com/pierrre/imageserver/http"
-	_ "github.com/pierrre/imageserver/image/gif"
-	_ "github.com/pierrre/imageserver/image/jpeg"
-	_ "github.com/pierrre/imageserver/image/png"
-	imageserver_source_http "github.com/pierrre/imageserver/source/http"
+	imageserver_http "github.com/Destinia/imageserver/http"
+	_ "github.com/Destinia/imageserver/image/gif"
+	_ "github.com/Destinia/imageserver/image/jpeg"
+	_ "github.com/Destinia/imageserver/image/png"
+	imageserver_source_http "github.com/Destinia/imageserver/source/http"
 )
 
 const (
-	urlPrefix = "https://raw.githubusercontent.com/pierrre/imageserver/master/testdata/"
+	urlPrefix = "https://raw.githubusercontent.com/Destinia/imageserver/master/testdata/"
 )
 
 var (

@@ -3,11 +3,11 @@ package gift
 import (
 	"testing"
 
+	"github.com/Destinia/imageserver"
+	imageserver_image "github.com/Destinia/imageserver/image"
+	_ "github.com/Destinia/imageserver/image/jpeg"
+	imageserver_testdata "github.com/Destinia/imageserver/testdata"
 	"github.com/disintegration/gift"
-	"github.com/pierrre/imageserver"
-	imageserver_image "github.com/pierrre/imageserver/image"
-	_ "github.com/pierrre/imageserver/image/jpeg"
-	imageserver_testdata "github.com/pierrre/imageserver/testdata"
 )
 
 var _ imageserver_image.Processor = &ResizeProcessor{}

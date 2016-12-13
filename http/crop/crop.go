@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/pierrre/imageserver"
+	"github.com/Destinia/imageserver"
 )
 
 const param = "crop"

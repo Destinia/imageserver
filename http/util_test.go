@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pierrre/imageserver"
+	"github.com/Destinia/imageserver"
 )
 
 var _ http.Handler = &CacheControlPublicHandler{}

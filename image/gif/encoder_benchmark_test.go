@@ -3,10 +3,10 @@ package gif
 import (
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	imageserver_image_test "github.com/pierrre/imageserver/image/_test"
-	_ "github.com/pierrre/imageserver/image/jpeg"
-	"github.com/pierrre/imageserver/testdata"
+	"github.com/Destinia/imageserver"
+	imageserver_image_test "github.com/Destinia/imageserver/image/_test"
+	_ "github.com/Destinia/imageserver/image/jpeg"
+	"github.com/Destinia/imageserver/testdata"
 )
 
 func BenchmarkEncoder(b *testing.B) {

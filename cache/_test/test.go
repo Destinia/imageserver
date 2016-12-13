@@ -5,9 +5,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	imageserver_cache "github.com/pierrre/imageserver/cache"
-	"github.com/pierrre/imageserver/testdata"
+	"github.com/Destinia/imageserver"
+	imageserver_cache "github.com/Destinia/imageserver/cache"
+	"github.com/Destinia/imageserver/testdata"
 )
 
 const (

@@ -4,7 +4,7 @@ import (
 	"crypto/sha256"
 	"testing"
 
-	"github.com/pierrre/imageserver"
+	"github.com/Destinia/imageserver"
 )
 
 func BenchmarkNewParamsHashKeyGenerator(b *testing.B) {

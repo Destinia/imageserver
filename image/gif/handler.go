@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"image/gif"
 
-	"github.com/pierrre/imageserver"
+	"github.com/Destinia/imageserver"
 )
 
 // Handler is a GIF imageserver.Handler implementation.

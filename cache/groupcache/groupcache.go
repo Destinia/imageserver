@@ -4,9 +4,9 @@ package groupcache
 import (
 	"fmt"
 
+	"github.com/Destinia/imageserver"
+	imageserver_cache "github.com/Destinia/imageserver/cache"
 	"github.com/golang/groupcache"
-	"github.com/pierrre/imageserver"
-	imageserver_cache "github.com/pierrre/imageserver/cache"
 )
 
 // NewServer is a helper to create a new groupcache Server.

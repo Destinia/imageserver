@@ -4,9 +4,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	cachetest "github.com/pierrre/imageserver/cache/_test"
-	"github.com/pierrre/imageserver/testdata"
+	"github.com/Destinia/imageserver"
+	cachetest "github.com/Destinia/imageserver/cache/_test"
+	"github.com/Destinia/imageserver/testdata"
 )
 
 func BenchmarkGetSize(b *testing.B) {

@@ -2,7 +2,7 @@
 package memory
 
 import (
-	"github.com/pierrre/imageserver"
+	"github.com/Destinia/imageserver"
 	"github.com/pierrre/lrucache"
 )
 

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"image"
 
+	"github.com/Destinia/imageserver"
 	"github.com/nfnt/resize"
-	"github.com/pierrre/imageserver"
 )
 
 const (

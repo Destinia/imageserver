@@ -6,10 +6,10 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	. "github.com/pierrre/imageserver/image"
-	_ "github.com/pierrre/imageserver/image/jpeg"
-	"github.com/pierrre/imageserver/testdata"
+	"github.com/Destinia/imageserver"
+	. "github.com/Destinia/imageserver/image"
+	_ "github.com/Destinia/imageserver/image/jpeg"
+	"github.com/Destinia/imageserver/testdata"
 )
 
 var _ Encoder = EncoderFunc(nil)

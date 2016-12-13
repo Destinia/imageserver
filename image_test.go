@@ -8,8 +8,8 @@ import (
 	"testing"
 	"unsafe"
 
-	. "github.com/pierrre/imageserver"
-	"github.com/pierrre/imageserver/testdata"
+	. "github.com/Destinia/imageserver"
+	"github.com/Destinia/imageserver/testdata"
 )
 
 var _ encoding.BinaryMarshaler = new(Image)

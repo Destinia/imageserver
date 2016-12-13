@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pierrre/imageserver"
-	"github.com/pierrre/imageserver/testdata"
+	"github.com/Destinia/imageserver"
+	"github.com/Destinia/imageserver/testdata"
 )
 
 const testExecutable = "gm"

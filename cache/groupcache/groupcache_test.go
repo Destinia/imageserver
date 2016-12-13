@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Destinia/imageserver"
+	imageserver_cache "github.com/Destinia/imageserver/cache"
+	imageserver_source "github.com/Destinia/imageserver/source"
+	"github.com/Destinia/imageserver/testdata"
 	"github.com/golang/groupcache"
-	"github.com/pierrre/imageserver"
-	imageserver_cache "github.com/pierrre/imageserver/cache"
-	imageserver_source "github.com/pierrre/imageserver/source"
-	"github.com/pierrre/imageserver/testdata"
 )
 
 const (

@@ -5,8 +5,8 @@ import (
 	"image/color"
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	imageserver_image "github.com/pierrre/imageserver/image"
+	"github.com/Destinia/imageserver"
+	imageserver_image "github.com/Destinia/imageserver/image"
 )
 
 var _ imageserver_image.Processor = &Processor{}

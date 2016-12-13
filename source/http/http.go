@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/pierrre/imageserver"
-	imageserver_source "github.com/pierrre/imageserver/source"
+	"github.com/Destinia/imageserver"
+	imageserver_source "github.com/Destinia/imageserver/source"
 )
 
 // Server is a imageserver.Server implementation that gets the Image from an HTTP URL.

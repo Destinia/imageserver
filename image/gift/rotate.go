@@ -6,9 +6,9 @@ import (
 	"image/color"
 	"math"
 
+	"github.com/Destinia/imageserver"
+	imageserver_image_internal "github.com/Destinia/imageserver/image/internal"
 	"github.com/disintegration/gift"
-	"github.com/pierrre/imageserver"
-	imageserver_image_internal "github.com/pierrre/imageserver/image/internal"
 )
 
 const (

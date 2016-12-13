@@ -4,11 +4,11 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Destinia/imageserver"
+	imageserver_cache "github.com/Destinia/imageserver/cache"
+	cachetest "github.com/Destinia/imageserver/cache/_test"
+	"github.com/Destinia/imageserver/testdata"
 	memcache_impl "github.com/bradfitz/gomemcache/memcache"
-	"github.com/pierrre/imageserver"
-	imageserver_cache "github.com/pierrre/imageserver/cache"
-	cachetest "github.com/pierrre/imageserver/cache/_test"
-	"github.com/pierrre/imageserver/testdata"
 )
 
 var _ imageserver_cache.Cache = &Cache{}

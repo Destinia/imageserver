@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	imageserver_image "github.com/pierrre/imageserver/image"
-	imageserver_testdata "github.com/pierrre/imageserver/testdata"
+	"github.com/Destinia/imageserver"
+	imageserver_image "github.com/Destinia/imageserver/image"
+	imageserver_testdata "github.com/Destinia/imageserver/testdata"
 )
 
 var _ imageserver_image.Processor = &RotateProcessor{}

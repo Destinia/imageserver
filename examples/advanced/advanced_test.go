@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/pierrre/imageserver/testdata"
+	"github.com/Destinia/imageserver/testdata"
 )
 
 func Test(t *testing.T) {

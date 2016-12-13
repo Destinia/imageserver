@@ -3,9 +3,9 @@ package bmp
 import (
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	imageserver_image "github.com/pierrre/imageserver/image"
-	imageserver_image_test "github.com/pierrre/imageserver/image/_test"
+	"github.com/Destinia/imageserver"
+	imageserver_image "github.com/Destinia/imageserver/image"
+	imageserver_image_test "github.com/Destinia/imageserver/image/_test"
 )
 
 var _ imageserver_image.Encoder = &Encoder{}

@@ -3,10 +3,10 @@ package nfntresize
 import (
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	imageserver_image "github.com/pierrre/imageserver/image"
-	_ "github.com/pierrre/imageserver/image/jpeg"
-	imageserver_testdata "github.com/pierrre/imageserver/testdata"
+	"github.com/Destinia/imageserver"
+	imageserver_image "github.com/Destinia/imageserver/image"
+	_ "github.com/Destinia/imageserver/image/jpeg"
+	imageserver_testdata "github.com/Destinia/imageserver/testdata"
 )
 
 var _ imageserver_image.Processor = &Processor{}

@@ -6,8 +6,8 @@ import (
 	"image/png"
 	"io"
 
-	"github.com/pierrre/imageserver"
-	imageserver_image "github.com/pierrre/imageserver/image"
+	"github.com/Destinia/imageserver"
+	imageserver_image "github.com/Destinia/imageserver/image"
 )
 
 // Encoder is a PNG imageserver/image.Encoder implementation.

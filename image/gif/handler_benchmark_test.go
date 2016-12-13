@@ -4,8 +4,8 @@ import (
 	"image/gif"
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	"github.com/pierrre/imageserver/testdata"
+	"github.com/Destinia/imageserver"
+	"github.com/Destinia/imageserver/testdata"
 )
 
 func BenchmarkHandler(b *testing.B) {

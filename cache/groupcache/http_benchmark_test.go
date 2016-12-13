@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/pierrre/imageserver"
+	"github.com/Destinia/imageserver"
 )
 
 func BenchmarkHTTPPoolContext(b *testing.B) {

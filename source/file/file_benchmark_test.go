@@ -3,9 +3,9 @@ package file
 import (
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	imageserver_source "github.com/pierrre/imageserver/source"
-	"github.com/pierrre/imageserver/testdata"
+	"github.com/Destinia/imageserver"
+	imageserver_source "github.com/Destinia/imageserver/source"
+	"github.com/Destinia/imageserver/testdata"
 )
 
 func BenchmarkServerGet(b *testing.B) {

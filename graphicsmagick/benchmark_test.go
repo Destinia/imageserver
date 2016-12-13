@@ -3,8 +3,8 @@ package graphicsmagick
 import (
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	"github.com/pierrre/imageserver/testdata"
+	"github.com/Destinia/imageserver"
+	"github.com/Destinia/imageserver/testdata"
 )
 
 func BenchmarkResize(b *testing.B) {

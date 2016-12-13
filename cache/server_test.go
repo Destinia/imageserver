@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	. "github.com/pierrre/imageserver/cache"
-	cachetest "github.com/pierrre/imageserver/cache/_test"
-	"github.com/pierrre/imageserver/testdata"
+	"github.com/Destinia/imageserver"
+	. "github.com/Destinia/imageserver/cache"
+	cachetest "github.com/Destinia/imageserver/cache/_test"
+	"github.com/Destinia/imageserver/testdata"
 )
 
 var _ imageserver.Server = &Server{}

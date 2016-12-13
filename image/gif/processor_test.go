@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	imageserver_image "github.com/pierrre/imageserver/image"
+	"github.com/Destinia/imageserver"
+	imageserver_image "github.com/Destinia/imageserver/image"
 )
 
 var _ Processor = &SimpleProcessor{}

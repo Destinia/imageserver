@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/pierrre/imageserver"
-	imageserver_http "github.com/pierrre/imageserver/http"
+	"github.com/Destinia/imageserver"
+	imageserver_http "github.com/Destinia/imageserver/http"
 )
 
 var _ imageserver_http.Parser = &RotateParser{}
