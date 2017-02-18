@@ -57,6 +57,13 @@ func (f KeyGeneratorFunc) GetKey(params imageserver.Params) string {
 	return f(params)
 }
 
+// NewSourceKeyGenerator return the unhashed filename
+func NewSourceKeyGenerator() KeyGenerator {
+	return KeyGeneratorFunc(func(params imageserver.Params) string {
+		return params["source"].(string)
+	})
+}
+
 // NewParamsHashKeyGenerator returns a new KeyGenerator that hashes the Params.
 func NewParamsHashKeyGenerator(newHashFunc func() hash.Hash) KeyGenerator {
 	pool := &sync.Pool{
