@@ -2,7 +2,6 @@ package cache
 
 import (
 	"encoding/hex"
-	"fmt"
 	"hash"
 	"io"
 	"strconv"
@@ -63,7 +62,6 @@ func (f KeyGeneratorFunc) GetKey(params imageserver.Params) string {
 func NewSourceResizeKeyGenerator() KeyGenerator {
 	return KeyGeneratorFunc(func(params imageserver.Params) string {
 		if resize, err := params.GetParams("gift_resize"); err == nil {
-			fmt.Println("here1")
 			if width, err2 := resize.GetInt("width"); err2 == nil {
 				filename, _ := params.GetString("source")
 				return filename + ":" + strconv.Itoa(width)
